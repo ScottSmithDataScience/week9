@@ -101,7 +101,7 @@ def main():
             cnt BIGINT
         ) WITH (
             'connector' = 'kafka',
-            'topic' = 'hw9_outputs',
+            'topic' = 'hw9_output',
             'properties.bootstrap.servers' = 'broker1:29092',
             'format' = 'json'
         )
